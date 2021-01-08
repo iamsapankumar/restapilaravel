@@ -10,7 +10,7 @@ use App\Models\User;
 
 class LoginController extends Controller
 {
-    public function login(Request $request)
+    public function loginUser(Request $request)
     {
         $credentials = [
             'email' => $request->email,

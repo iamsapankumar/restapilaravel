@@ -19,3 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Route::auth();
+
+// Route::post('login',[LoginController::class,'loginUser']);
+// Route::post('registration', [RegisterController::class, 'registerUser']);
